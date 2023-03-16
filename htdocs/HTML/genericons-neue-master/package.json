@@ -1,0 +1,47 @@
+{
+  "name": "genericons-neue",
+  "version": "4.0.5",
+  "description": "Genericons Neue are generic looking icons, suitable for a blog or simple website.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Automattic/genericons-neue.git"
+  },
+  "devDependencies": {
+    "css-what": "^5.0.1",
+    "grunt": "^1.4.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-rename": "^0.1.4",
+    "grunt-svgmin": "^6.0.1",
+    "grunt-svgstore": "^2.0.0",
+    "grunt-webfont": "^1.6.0",
+    "multiline": "^0.3.4",
+    "rename": "^1.0.3",
+    "svgmin": "^0.1.0",
+    "svgstore": "^3.0.0-2",
+    "underscore": "^1.13.1"
+  },
+  "keywords": [
+    "icon",
+    "font",
+    "blog"
+  ],
+  "scripts": {
+    "build": "grunt",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Automattic/genericons-neue/issues"
+  },
+  "homepage": "https://github.com/Automattic/genericons-neue#readme",
+  "resolutions": {
+    "css-what": "^5.0.1",
+    "underscore": "^1.12.1",
+    "underscore.string": "^3.3.5",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.12",
+    "xmldom": "^0.5.0"
+  }
+}
